@@ -1,0 +1,5 @@
+Description:
+    Creates a skeleton gem that lets you generate dummy apps on the fly
+
+Example:
+    rails generate gem_helper:install
