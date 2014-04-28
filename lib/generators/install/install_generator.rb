@@ -10,10 +10,14 @@ class GemHelper::InstallGenerator < Rails::Generators::Base
     #rails dependent gemfiles
     template "rails40.gemfile", "gemfiles/rails40.gemfile"
     template "rails32.gemfile", "gemfiles/rails32.gemfile"
-    
+
     #rails template
     template "rails_template.rb", "spec/support/rails_template.rb"
 
+
+    #rspec files
+    template "spec_helper.rb", "spec/spec_helper.rb"
+    template ".rspec", ".rspec"
   end
 
 end
