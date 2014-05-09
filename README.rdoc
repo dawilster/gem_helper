@@ -1,3 +1,6 @@
 = GemHelper
 
 This project rocks and uses MIT-LICENSE.
+
+What this project does sets up your gem to dynamically generate a rails project on the fly that uses 
+rspec as it's testing framework

@@ -1,4 +1,4 @@
-idesc "Creates a test rails app for the specs to run against"
+desc "Creates a test rails app for the specs to run against"
 task :setup do
   system("mkdir spec/dummy") unless File.exists?("spec/dummy")
 
