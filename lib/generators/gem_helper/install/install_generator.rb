@@ -25,6 +25,12 @@ class GemHelper::InstallGenerator < Rails::Generators::Base
 
     #alter engine.rb
     #to add rspec and factory_girl as defaults
+    # config.generators do |g|
+    #   g.test_framework      :rspec,        :fixture => false
+    #   g.fixture_replacement :factory_girl, :dir => 'spec/factories'
+    #   g.assets false
+    #   g.helper false
+    # end
 
     #alter Rakefile
     #import rake tasks
